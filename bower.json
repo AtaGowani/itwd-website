@@ -1,0 +1,21 @@
+{
+  "name": "itwd.github.io",
+  "homepage": "itwd.info",
+  "authors": [
+    "Ata Gowani <atagowani@gmail.com>"
+  ],
+  "description": "The official website for ITWD course.",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

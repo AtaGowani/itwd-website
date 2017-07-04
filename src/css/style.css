@@ -4,7 +4,7 @@
 * @copyright 2017 Ata Gowani
 */
 
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
 
 body,
 html {
@@ -22,7 +22,8 @@ body {
 }
 
 .splash {
-  height: 40rem;
+  min-height: 40rem;
+  height: 100%;
   width: 100%;
   background: #F44336;
   padding: 0;
@@ -70,6 +71,11 @@ body {
 
 .info div {
   padding-bottom: 4rem;
+}
+
+.info .text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
 }
 
 .down {

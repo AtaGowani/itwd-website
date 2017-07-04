@@ -66,16 +66,13 @@ body {
 }
 
 .info {
-  padding-top: 6rem;
-}
-
-.info div {
-  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .info .text {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+  margin-bottom: 3rem; 
 }
 
 .down {

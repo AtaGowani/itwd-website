@@ -4,7 +4,7 @@
 * @copyright 2017 Ata Gowani
 */
 
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
 
 body,
 html {
@@ -22,7 +22,8 @@ body {
 }
 
 .splash {
-  height: 40rem;
+  min-height: 40rem;
+  height: 100%;
   width: 100%;
   background: #F44336;
   padding: 0;
@@ -30,6 +31,9 @@ body {
 
 .splash > div {
   animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
 }
 
 .splash h1 {
@@ -65,15 +69,40 @@ body {
 }
 
 .info {
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 
-.info div {
-  padding-bottom: 4rem;
+.info .text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 3rem; 
 }
 
 .down {
   margin-top: 7rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.more-info {
+  background: #E53935;
+  height: 45rem;
+  padding-top: 9rem;
+}
+
+.more-info h2 {
+  color: #FFF;
+  font-size: 4rem;
+}
+
+.more-info a:hover {
+  opacity: 0.8;
+}
+
+.more-info img {
+  margin-top: 5rem;
 }
 
 @media (max-width: 575px) {
@@ -87,6 +116,19 @@ body {
 }
 
 @keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-o-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
 }

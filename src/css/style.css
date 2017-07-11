@@ -82,7 +82,7 @@ body {
   }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 485px) {
   .down {
       margin-top: 8rem;
     }

@@ -67,7 +67,6 @@ body {
 }
 
 .info {
-  color: #fff;
   padding: 4rem 0;
 }
 
@@ -90,6 +89,7 @@ body {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
+  font-size: 1.2rem;
   color: #FFEBEE;
   background: #F44336;
   border: #F44336;
@@ -151,6 +151,21 @@ footer a:hover {
 
 footer .container {
   padding-top: 2.5rem;
+}
+
+.spotsLeft {
+  color: #000;
+}
+
+.registration-time {
+  margin-top: .1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  .btn-primary {
+    font-size: 1rem;
+  }
 }
 
 @keyframes fadeIn {

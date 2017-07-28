@@ -89,7 +89,7 @@ body {
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus,
-.disabled {
+.btn-primary.disabled {
   font-size: 1.2rem;
   color: #FFEBEE;
   background: #F44336;

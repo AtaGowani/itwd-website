@@ -164,7 +164,11 @@ footer .container {
 }
 
 @media (max-width: 500px) {
-  .btn-primary {
+  .btn-primary,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus,
+  .btn-primary.disabled {
     font-size: 1rem;
   }
 }

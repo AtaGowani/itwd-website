@@ -33,11 +33,41 @@ body {
 }
 
 .splash .container {
-  padding-top: 7rem; 
+  padding-top: 7.5rem; 
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
+}
+
+@media (max-height: 600px) {
+  .splash .container {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .splash .container {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .splash .container {
+    padding-top: 13rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .splash .container {
+    padding-top: 16rem;
+  }
+}
+
+@media (min-height: 1050px) {
+  .splash .container {
+    padding-top: 22rem;
+  }
 }
 
 .splash h1 {
@@ -170,6 +200,16 @@ footer .container {
   .btn-primary:focus,
   .btn-primary.disabled {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .btn-primary,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus,
+  .btn-primary.disabled {
+    font-size: .8rem;
   }
 }
 

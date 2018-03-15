@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1135px" height="696px" viewBox="0 0 1135 696" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="604" y="149" width="531" height="541" rx="19"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#E5E5E5" x="0" y="0" width="1135" height="695.022381" rx="19"></rect>
+            <g id="Browser">
+                <path d="M6.99015734,0 C3.12960004,0 0,3.13457535 0,6.99369875 L0,55 L1135,55 L1135,6.99369875 C1135,3.13118559 1131.86872,0 1128.00984,0 L6.99015734,0 Z" id="background" fill="#F5F5F5"></path>
+                <circle id="object" fill="#F44336" cx="23.5" cy="27.5" r="7.5"></circle>
+                <path d="M43.5,35 C47.6421356,35 51,31.6421356 51,27.5 C51,23.3578644 47.6421356,20 43.5,20 C39.3578644,20 36,23.3578644 36,27.5 C36,31.6421356 39.3578644,35 43.5,35 Z" id="object" fill="#CDDC39"></path>
+                <circle id="object" fill="#4CAF50" cx="64.5" cy="27.5" r="7.5"></circle>
+                <rect id="search" fill="#FFFFFF" opacity="0.85" x="86" y="14" width="1037" height="27"></rect>
+            </g>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="16" y="244" width="854" height="319" rx="23"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="469" y="82" width="614" height="135" rx="23"></rect>
+            <text id="https://www.website." font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#000000">
+                <tspan x="91" y="32">https://www.website.com</tspan>
+            </text>
+            <g id="Rectangle-2">
+                <use fill="#555555" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#E91E63" stroke-width="1" x="604.5" y="149.5" width="530" height="540" rx="19"></rect>
+            </g>
+            <path d="M616.994054,149 C609.817636,149 604,154.820905 604,161.999395 L604,204 L1135,204 L1135,161.999395 C1135,154.820027 1129.1726,149 1122.00595,149 L616.994054,149 Z" id="background" fill="#F5F5F5"></path>
+            <circle id="object" fill="#F44336" cx="627.5" cy="176.5" r="7.5"></circle>
+            <path d="M647.5,184 C651.642136,184 655,180.642136 655,176.5 C655,172.357864 651.642136,169 647.5,169 C643.357864,169 640,172.357864 640,176.5 C640,180.642136 643.357864,184 647.5,184 Z" id="object" fill="#CDDC39"></path>
+            <circle id="object" fill="#4CAF50" cx="668.5" cy="176.5" r="7.5"></circle>
+            <path d="M626.5,232.5 L994.5,232.5" id="Line" stroke="#03A9F4" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M626.5,307.5 L994.5,307.5" id="Line" stroke="#03A9F4" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M626.5,332.5 L962.5,332.5" id="Line" stroke="#E91E63" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M645.5,355.5 L1000.5,355.5" id="Line" stroke="#E91E63" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M645.5,377.5 L1000.5,377.5" id="Line" stroke="#E91E63" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M627.5,399.5 L982.5,399.5" id="Line" stroke="#E91E63" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M627.5,422.5 L1048.5,422.5" id="Line" stroke="#FBC02D" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M627.5,485.5 L1048.5,485.5" id="Line" stroke="#FBC02D" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M644.5,443.5 L1018.5,443.5" id="Line" stroke="#FBC02D" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M644.5,464.5 L1018.5,464.5" id="Line" stroke="#FBC02D" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M644.5,257.5 L1083,257.5" id="Line" stroke="#03A9F4" stroke-width="12" stroke-linecap="square"></path>
+            <path d="M644.5,282.5 L1083,282.5" id="Line" stroke="#03A9F4" stroke-width="12" stroke-linecap="square"></path>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="16" y="79" width="408" height="135" rx="23"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="18" y="596" width="550" height="72" rx="23"></rect>
+        </g>
+    </g>
+</svg>

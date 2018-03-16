@@ -99,6 +99,7 @@ body {
 
 .info {
   margin-bottom: 5rem;
+  padding-top: 0.5rem;
 }
 
 .info h3 {
@@ -115,6 +116,10 @@ body {
 
 .down {
   margin-top: 5rem;
+}
+
+.down a img {
+  height: 4rem;
 }
 
 .btn-primary,

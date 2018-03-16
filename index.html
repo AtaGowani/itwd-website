@@ -42,12 +42,12 @@
         </div>
         <div class="row text-center">
           <div class="col-12 down">
-            <img src="src/imgs/arrow.png" alt="down arrow">
+            <img src="src/imgs/arrow.png">
           </div>
         </div>
       </div>
     </div>
-    <div class="info">
+    <div class="info" id="info">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-12 text-center">
@@ -74,7 +74,7 @@
               <p>
                 It's not just a course. You will get the chance to make an impact with the skills
                 you acquire. You, as a student, will be working in a team to help a non-profit organization 
-                with their web-related technical needs.
+                with their web-related technical needs and see your creation come to life.
               </p>
             </div>
           </div>
@@ -101,11 +101,8 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-6 text-right">
-            <a href="https://github.com/ITWD/ITWD#intro-to-web-development" class="btn btn-primary btn-lg" role="button">Learn More</a>
-          </div>
-          <div class="col-6 text-left">
-            <a href="https://agowani.typeform.com/to/pRcKo0" data-mode="popup" class="typeform-share button btn btn-primary btn-lg" data-mode="popup" target="_blank">Register Now</a>
+          <div class="col-12 text-center">
+            <a href="https://agowani.typeform.com/to/pRcKo0" data-mode="popup" class="typeform-share button btn btn-primary btn-lg" data-mode="popup" target="_blank">Register Now!</a>
           </div>
         </div>
       </div>
@@ -121,6 +118,16 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scroll script from down arrow -->
+    <script>
+    document.querySelector('.down').getElementsByTagName('img')[0].addEventListener("click", function(){
+      document.querySelector('#info').scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      })
+    });
+    </script>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="bower_components/jquery/dist/jquery.min.js"> </script>

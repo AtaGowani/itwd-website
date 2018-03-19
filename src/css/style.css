@@ -26,7 +26,7 @@ body {
   min-height: 40rem;
   height: 100%;
   width: 100%;
-  background: #4CAF50;
+  background: #C51162;
   padding: 0;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .logo > img {
-  height: 8rem;
+  height: 12rem;
 }
 
 .info img {
@@ -94,7 +94,7 @@ body {
 }
 
 .info .row {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .info {
@@ -118,6 +118,22 @@ body {
   margin-top: 5rem;
 }
 
+.apply-button a {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.down p {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #fff;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
+
 .down a img {
   height: 4rem;
 }
@@ -128,15 +144,15 @@ body {
 .btn-primary:focus,
 .btn-primary.disabled {
   font-size: 1.2rem;
-  color: #FFEBEE;
-  background: #4CAF50;
-  border: #4CAF50;
+  color: #ffffff;
+  background: #880E4F;
+  border: #880E4F;
 }
 
 .btn-primary:hover {
   color: #FFEBEE;
-  background: #2E7D32;
-  border: #2E7D32;
+  background: #AD1457;
+  border: #AD1457;
 }
 
 @media (max-width: 1000px) {
@@ -172,7 +188,7 @@ body {
 
 footer {
   color: #FFEBEE;
-  background: #2E7D32;
+  background: #880E4F;
   height: 10rem;
   font-size: 1rem;
 }

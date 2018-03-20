@@ -119,20 +119,26 @@
       </div>
     </footer>
 
-    <!-- Scroll script from down arrow -->
-    <script>
-    document.querySelector('.down').getElementsByTagName('img')[0].addEventListener("click", function(){
-      document.querySelector('#info').scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      })
-    });
-    </script>
-
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="bower_components/jquery/dist/jquery.min.js"> </script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Scroll script for down arrow -->
+    <script>
+      $(document).ready(function(){
+        $(".down").click(function(e) {
+          var hash = "#info"
+          e.preventDefault();
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            return;
+          })
+        })
+      })
+    </script>
 
     <!-- TYPEFORM -->  
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>

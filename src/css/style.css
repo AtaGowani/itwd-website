@@ -114,14 +114,19 @@ body {
   margin-bottom: 2.5rem; 
 }
 
-.down {
-  margin-top: 5rem;
+.splash .down {
+  margin-top: 2rem;
+}
+
+.splash .bottom {
+  margin-top: 2rem;
 }
 
 .apply-button a {
   font-family: 'Comfortaa', cursive;
   font-weight: 300;
   font-size: 1rem;
+  margin-top: 3rem;
 }
 
 .down p {

@@ -21,6 +21,9 @@
     <link rel="mask-icon" href="src/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- AOS -- Needs to be called before DOM so that data-aos attribute can be used -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <script src="bower_components/aos/dist/aos.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Custom Stylesheet -->
@@ -29,6 +32,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <div class="splash">
       <div class="container">
         <div class="row text-center">
@@ -54,8 +60,8 @@
     <div class="info" id="info">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-12 text-center">
-            <img src="src/imgs/learn.svg" alt="WWW">
+          <div class="col-md-6 col-12 text-center" data-aos="fade-left">
+            <img src="src/imgs/learn.svg">
           </div>
           <div class="col-md-6 col-12 text-center text-md-left">
             <h3>HTML, CSS, and JS</h3>
@@ -82,12 +88,12 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-12 text-center">
+          <div class="col-md-6 col-12 text-center" data-aos="fade-right">
             <img src="src/imgs/project.svg">
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-12 text-center">
+          <div class="col-md-6 col-12 text-center" data-aos="fade-left">
             <img src="src/imgs/time.svg">
           </div>
           <div class="col-md-6 col-12 text-center text-md-left">

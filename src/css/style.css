@@ -312,3 +312,15 @@ footer .container {
     font-size: 1rem;
   }
 }
+
+.npo .row h1 {
+  margin-bottom: 1.5rem; 
+}
+
+.npo .row div {
+  margin: 0 0 5rem 0;
+}
+
+.npo p {
+  font-size: 1.5rem;
+}

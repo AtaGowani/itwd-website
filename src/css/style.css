@@ -75,6 +75,9 @@ body {
 }
 
 .splash h1 {
+  text-transform: lowercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 3rem;
   padding-top: 1rem;
   color: #fff;
@@ -196,6 +199,9 @@ body {
 }
 
 .lead {
+  font-family: 'Comfortaa', cursive;
+  text-transform: lowercase;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 

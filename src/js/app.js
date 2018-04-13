@@ -1,12 +1,5 @@
 var app = angular.module('itwd', ['ui.router', 'ngAnimate'])
 
-app.controller("mainSplashController",["$scope", "$location", function($scope, $location){
-  var url = $location.url();
-  console.log(url);
-  $scope.title = "Intro to Web Development"
-  $scope.subTitle = "It's not just a course"
-}])
-
 app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider){
 
   $stateProvider

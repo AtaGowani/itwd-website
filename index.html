@@ -38,7 +38,23 @@
   </head>
   <body>
     <div class="splash">
-      <div ui-view="splash"></div>
+      <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <div class="logo">
+                <img src="src/imgs/logo.svg" alt="course logo">
+              </div>
+              <div ui-view="splashText"></div>
+            </div>
+          </div>
+          <div class="row text-center bottom">
+            <div class="col-12 text-center apply-button" ui-view="splashButton"></div>
+            <div class="col-12 down">
+              <p>Learn More</p>
+              <img src="src/imgs/arrow.png">
+            </div>
+          </div>
+      </div>
     </div>
     <div class="info" id="info">
       <div ui-view="content"></div>
@@ -75,8 +91,5 @@
         })
       })
     </script>
-
-    <!-- TYPEFORM -->  
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   </body>
 </html>

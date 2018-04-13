@@ -1,27 +1,13 @@
 var app = angular.module('itwd', ['ui.router', 'ngAnimate'])
 
-app.animation('.slide', [function() {
-  return {
-    // make note that other events (like addClass/removeClass)
-    // have different function input parameters
-    enter: function(element, doneFn) {
-      jQuery(element).fadeIn(1000, doneFn);
+app.controller("mainSplashController",["$scope", "$location", function($scope, $location){
+  var url = $location.url();
+  console.log(url);
+  $scope.title = "Intro to Web Development"
+  $scope.subTitle = "It's not just a course"
+}])
 
-      // remember to call doneFn so that AngularJS
-      // knows that the animation has concluded
-    },
-
-    move: function(element, doneFn) {
-      jQuery(element).fadeIn(1000, doneFn);
-    },
-
-    leave: function(element, doneFn) {
-      jQuery(element).fadeOut(1000, doneFn);
-    }
-  }
-}]);
-
-app.config(function($stateProvider, $urlRouterProvider){
+app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider){
 
   $stateProvider
     .state({
@@ -31,8 +17,11 @@ app.config(function($stateProvider, $urlRouterProvider){
         'content': {
           templateUrl: './src/views/main.html'
         },
-        'splash': {
+        'splashText': {
           templateUrl: './src/views/mainSplash.html'
+        },
+        'splashButton': {
+          templateUrl: './src/views/mainSplashButton.html'
         }
       }
     })
@@ -44,11 +33,14 @@ app.config(function($stateProvider, $urlRouterProvider){
         'content': {
           templateUrl: './src/views/non-profits.html'
         },
-        'splash': {
+        'splashText': {
           templateUrl: './src/views/non-profitsSplash.html'
+        },
+        'splashButton': {
+          templateUrl: './src/views/non-profitsSplashButton.html'
         }
       }
-    });
+    })
 
     $urlRouterProvider.otherwise('/');
-})
+}])

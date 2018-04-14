@@ -1,0 +1,23 @@
+{
+  "name": "itwd.github.io",
+  "version": "1.0.0",
+  "description": "official website for Hack To Help",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITWD/itwd.github.io.git"
+  },
+  "author": "Ata Gowani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITWD/itwd.github.io/issues"
+  },
+  "homepage": "https://github.com/ITWD/itwd.github.io#readme"
+}

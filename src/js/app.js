@@ -1,6 +1,6 @@
 var app = angular.module('itwd', ['ui.router', 'ngAnimate'])
 
-app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider){
+app.config(["$stateProvider", "$urlRouterProvider", "$locationProvider", function($stateProvider, $urlRouterProvider, $locationProvider){
 
   $stateProvider
     .state({
@@ -36,4 +36,6 @@ app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $ur
     })
 
     $urlRouterProvider.otherwise('/');
+    // use the HTML5 History API
+    $locationProvider.html5Mode(true);
 }])

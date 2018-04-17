@@ -194,8 +194,12 @@ body {
 
 @media (max-width: 485px) {
   .splash .down {
-      margin-top: 4rem;
-    }
+    margin-top: 1rem;
+  }
+
+  .info img {
+    height: 10rem;
+  }
 }
 
 .lead {

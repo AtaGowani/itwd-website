@@ -28,6 +28,7 @@ body {
   width: 100%;
   background: #C51162;
   padding: 0;
+  color: #fff;
 }
 
 .splash .container {
@@ -83,11 +84,6 @@ body {
   color: #fff;
 }
 
-.splash p {
-  color: #000;
-  opacity: .5;
-}
-
 .splash a {
   color: #000;
   text-decoration: none;
@@ -114,6 +110,11 @@ body {
 .info h3 {
   font-size: 2.5rem;
   color: #000;
+  font-family: 'Comfortaa', cursive;
+}
+
+.info h2 {
+  font-size: 3rem;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -205,8 +206,9 @@ body {
 .lead {
   font-family: 'Comfortaa', cursive;
   text-transform: lowercase;
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  opacity: 0.9;
 }
 
 .down > img {
@@ -242,7 +244,7 @@ footer a:hover {
 }
 
 footer .container {
-  padding-top: 2.5rem;
+  padding-top: 2rem;
 }
 
 .spotsLeft {
@@ -327,4 +329,21 @@ footer .container {
 
 .npo p {
   font-size: 1.5rem;
+}
+
+footer .social-icon img {
+  height: 1.8rem;
+  filter: invert(100%);
+  margin: .5rem 0.2rem;
+  margin-top: 0;
+}
+
+a.social-icon {
+  text-decoration: none;
+  border: none;
+  opacity: 1;
+}
+
+a.social-icon:hover {
+  opacity: 0.8;
 }

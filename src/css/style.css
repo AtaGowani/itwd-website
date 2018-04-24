@@ -257,6 +257,11 @@ footer .container {
 }
 
 @media (max-width: 500px) {
+  .info h2,
+  .faq.header div h2 {
+    font-size: 2rem;
+  }
+
   .btn-primary,
   .btn-primary:active,
   .btn-primary:visited,
@@ -295,18 +300,15 @@ footer .container {
 }
 
 .faq.header {
-  margin: 0;
-  padding: 0;
   background: #B4115A;
   width: 100%;
-  height: 20rem;
+  height: 15rem;
   color: #fff;
-  padding: 8rem;
   margin: 2rem 0;
 }
 
 .faq.header h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .faq .row {

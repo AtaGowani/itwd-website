@@ -300,6 +300,10 @@ footer .container {
   margin: 2rem 0;
 }
 
+.bold {
+  font-weight: 400;
+}
+
 .faq.header h2 {
   font-size: 2.5rem;
 }

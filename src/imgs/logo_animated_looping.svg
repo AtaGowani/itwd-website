@@ -1,0 +1,38 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="275px" height="268px" viewBox="0 0 275 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6F1F37" offset="0%"></stop>
+            <stop stop-color="#742D6B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="84.3810096%" y2="85.9522964%" id="linearGradient-2">
+            <stop stop-color="#FD99B6" offset="0%"></stop>
+            <stop stop-color="#EC7D9E" offset="47.908418%"></stop>
+            <stop stop-color="#DA5F83" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="74.780649%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#D76A8B" offset="0%"></stop>
+            <stop stop-color="#BF486C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#9F4862" offset="0%"></stop>
+            <stop stop-color="#94235C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-16.000000, -16.000000)">
+            <g id="Group" transform="translate(97.000000, 104.000000)">
+                <path id="Rectangle-1" fill="url(#linearGradient-1)" d="M0,22.8L0,65.55L57,99.75L57,57Z" class="NqtZDQmV_0"></path>
+                <path id="Rectangle-3" fill="url(#linearGradient-2)" d="M26.3076923,-4.79414488e-17L0,22.4545455L57,57L57,21.1590909Z" class="NqtZDQmV_1"></path>
+                <path id="Rectangle-4" fill="url(#linearGradient-3)" transform="translate(85.500000, 28.500000) scale(-1, 1) translate(-85.500000, -28.500000) " d="M83.3076923,-4.79414488e-17L57,22.4545455L114,57L114,21.1590909Z" class="NqtZDQmV_2"></path>
+                <path id="Rectangle-2" fill="url(#linearGradient-4)" transform="translate(85.500000, 61.275000) scale(-1, 1) translate(-85.500000, -61.275000) " d="M57,22.8L57,65.55L114,99.75L114,57Z" class="NqtZDQmV_3"></path>
+            </g>
+            <path id="Polygon" stroke="#000000" stroke-width="5" d="M153.595359,19L261.488104,70.9584073L288.135411,187.707889L213.471315,281.333704L93.719403,281.333704L19.0553071,187.707889L45.7026144,70.9584073Z" class="NqtZDQmV_4"></path>
+            <path id="Polygon-2" stroke="#000000" stroke-width="2" d="M154.5,41L251.927858,97.25L251.927858,209.75L154.5,266L57.0721421,209.75L57.0721421,97.25Z" class="NqtZDQmV_5"></path>
+            <path id="Polygon-3" stroke="#000000" transform="translate(153.677858, 153.677858) rotate(30.000000) translate(-153.677858, -153.677858) " d="M153.677858,41.1778579L251.105716,97.4278579L251.105716,209.927858L153.677858,266.177858L56.25,209.927858L56.25,97.4278579Z" class="NqtZDQmV_6"></path>
+        </g>
+    </g>
+<style data-made-with="vivus-instant">.NqtZDQmV_0{stroke-dasharray:219 221;stroke-dashoffset:220;animation:NqtZDQmV_draw_0 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_1{stroke-dasharray:175 177;stroke-dashoffset:176;animation:NqtZDQmV_draw_1 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_2{stroke-dasharray:175 177;stroke-dashoffset:176;animation:NqtZDQmV_draw_2 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_3{stroke-dasharray:219 221;stroke-dashoffset:220;animation:NqtZDQmV_draw_3 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_4{stroke-dasharray:839 841;stroke-dashoffset:840;animation:NqtZDQmV_draw_4 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_5{stroke-dasharray:675 677;stroke-dashoffset:676;animation:NqtZDQmV_draw_5 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}.NqtZDQmV_6{stroke-dasharray:675 677;stroke-dashoffset:676;animation:NqtZDQmV_draw_6 7200ms ease-in-out 0ms infinite,NqtZDQmV_fade 7200ms linear 0ms infinite;}@keyframes NqtZDQmV_draw{100%{stroke-dashoffset:0;}}@keyframes NqtZDQmV_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes NqtZDQmV_draw_0{11.11111111111111%{stroke-dashoffset: 220}38.88888888888889%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_1{13.425925925925924%{stroke-dashoffset: 176}41.2037037037037%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_2{15.740740740740739%{stroke-dashoffset: 176}43.51851851851851%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_3{18.055555555555554%{stroke-dashoffset: 220}45.83333333333333%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_4{20.37037037037037%{stroke-dashoffset: 840}48.148148148148145%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_5{22.685185185185183%{stroke-dashoffset: 676}50.462962962962955%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes NqtZDQmV_draw_6{25%{stroke-dashoffset: 676}52.77777777777778%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>

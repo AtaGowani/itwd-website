@@ -163,6 +163,7 @@ body {
   color: #FFEBEE;
   background: #AD1457;
   border: #AD1457;
+  cursor: not-allowed;
 }
 
 @media (max-width: 1000px) {

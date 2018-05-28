@@ -157,6 +157,7 @@ body {
   color: #ffffff;
   background: #880E4F;
   border: #880E4F;
+  cursor: not-allowed;
 }
 
 .btn-primary:hover {
